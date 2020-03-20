@@ -16,11 +16,11 @@ class SignInController: UIViewController, GIDSignInDelegate, GIDSignInUIDelegate
    // let sharedInstance = SignInController()
     let sharedInstanceTest = EditProfileControllerViewController()
 
-    @IBOutlet weak var googleBtn: UIButton!
-    @IBOutlet weak var facebookBtn: UIButton!
-    @IBOutlet weak var signInoutlet: UIButton!
-    @IBOutlet weak var contentView: UIView!
-    @IBOutlet weak var emailField: UITextField! {
+    @IBOutlet weak var googleBtn    : UIButton!
+    @IBOutlet weak var facebookBtn  : UIButton!
+    @IBOutlet weak var signInoutlet : UIButton!
+    @IBOutlet weak var contentView  : UIView!
+    @IBOutlet weak var emailField   : UITextField! {
         didSet {
             emailField.tintColor = UIColor.orange
             emailField.setIcon(#imageLiteral(resourceName: "smartphone"))

@@ -17,10 +17,10 @@ class MyMenuTableViewController: UITableViewController {
         super.viewDidLoad()
         
         // Customize apperance of table view
-        tableView.contentInset = UIEdgeInsets(top: 64.0, left: 0, bottom: 0, right: 0)
-        tableView.separatorStyle = .singleLine
-        tableView.backgroundColor = UIColor.orange
-        tableView.scrollsToTop = false
+        tableView.contentInset      = UIEdgeInsets(top: 64.0, left: 0, bottom: 0, right: 0)
+        tableView.separatorStyle    = .singleLine
+        tableView.backgroundColor   = UIColor.orange
+        tableView.scrollsToTop      = false
         
         // Preserve selection between presentations
         clearsSelectionOnViewWillAppear = false

@@ -17,16 +17,12 @@ class VideoCallController: UIViewController {
     }
     
     
-    
-    
-    
     @IBAction func callEndAction(_ sender: Any) {
         
-               let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-               let newViewController = storyBoard.instantiateViewController(withIdentifier: "CustomTabBarControllerViewController") as! CustomTabBarControllerViewController
-                newViewController.modalPresentationStyle = .fullScreen
-               self.present(newViewController, animated: true, completion: nil)
-        
+     let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+     let newViewController = storyBoard.instantiateViewController(withIdentifier: "CustomTabBarControllerViewController") as! CustomTabBarControllerViewController
+    newViewController.modalPresentationStyle = .fullScreen
+    self.present(newViewController, animated: true, completion: nil)
         
     }
     

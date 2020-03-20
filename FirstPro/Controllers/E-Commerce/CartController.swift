@@ -10,13 +10,10 @@ import UIKit
 
 class CartController: UIViewController {
 
-    @IBOutlet weak var phonepeOutlet: UIButton?
-    
-    @IBOutlet weak var netbankingOutlet: UIButton?
-    
-    @IBOutlet weak var paytmOutlet: UIButton?
-    
-    @IBOutlet weak var codOutlet: UIButton?
+    @IBOutlet weak var phonepeOutlet    : UIButton?
+    @IBOutlet weak var netbankingOutlet : UIButton?
+    @IBOutlet weak var paytmOutlet      : UIButton?
+    @IBOutlet weak var codOutlet        : UIButton?
     
     override func viewDidLoad() {
         super.viewDidLoad()

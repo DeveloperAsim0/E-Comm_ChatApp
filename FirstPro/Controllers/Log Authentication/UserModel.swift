@@ -9,8 +9,8 @@
 import Foundation
 
 struct UserModel {
-    var name: String?
-    var email: String?
-    var imageURL: URL?
+    var name      : String?
+    var email     : String?
+    var imageURL  : URL?
 }
  

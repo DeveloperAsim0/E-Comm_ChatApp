@@ -25,7 +25,6 @@ class productSummary: UITableViewCell {
     @IBOutlet weak var wishlistButtonLabel  : UIButton!
     @IBOutlet weak var removeButtonLabel    : UIButton!
     
-    
 
     // priceInfo
     @IBOutlet weak var priceDetails         : UILabel!

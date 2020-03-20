@@ -10,13 +10,12 @@ import UIKit
 
 class checkoutCell: UITableViewCell {
     
-    @IBOutlet weak var viewBackground: UIView!
-    @IBOutlet weak var firstAddress: UIButton?
-    @IBOutlet weak var firstcheckbutton: UIButton?
-    @IBOutlet weak var seconda: UIButton?
+    @IBOutlet weak var viewBackground       : UIView!
+    @IBOutlet weak var firstAddress         : UIButton?
+    @IBOutlet weak var firstcheckbutton     : UIButton?
+    @IBOutlet weak var seconda              : UIButton?
     
-//checkout cell
-    
+    //checkout cell
     @IBOutlet weak var summaryLable         : UILabel?
     @IBOutlet weak var productName          : UILabel?
     @IBOutlet weak var sizeLable            : UILabel?
@@ -34,27 +33,27 @@ class checkoutCell: UITableViewCell {
     
     
     //Payment cell
-    @IBOutlet weak var payImage: UIImageView?
-    @IBOutlet weak var paymentLabel: UILabel?
+    @IBOutlet weak var payImage             : UIImageView?
+    @IBOutlet weak var paymentLabel         : UILabel?
     
     
     //Address cell
-    @IBOutlet weak var addImage: UIImageView?
-    @IBOutlet weak var addImage2: UIImageView?
-    @IBOutlet weak var addressLabel: UILabel?
-    @IBOutlet weak var address1: UILabel?
-    @IBOutlet weak var address2: UILabel?
-    @IBOutlet weak var address1Change: UIButton?
-    @IBOutlet weak var address2Change: UIButton?
+    @IBOutlet weak var addImage             : UIImageView?
+    @IBOutlet weak var addImage2            : UIImageView?
+    @IBOutlet weak var addressLabel         : UILabel?
+    @IBOutlet weak var address1             : UILabel?
+    @IBOutlet weak var address2             : UILabel?
+    @IBOutlet weak var address1Change       : UIButton?
+    @IBOutlet weak var address2Change       : UIButton?
     
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-      viewBackground?.layer.shadowOpacity = 0.7
-      viewBackground?.layer.shadowOffset = CGSize(width: 3, height: 3)
-      viewBackground?.layer.shadowRadius = 15.0
-      viewBackground?.layer.shadowColor = UIColor.black.cgColor
+      viewBackground?.layer.shadowOpacity   = 0.7
+      viewBackground?.layer.shadowOffset    = CGSize(width: 3, height: 3)
+      viewBackground?.layer.shadowRadius    = 15.0
+      viewBackground?.layer.shadowColor     = UIColor.black.cgColor
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

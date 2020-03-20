@@ -16,20 +16,20 @@ import SDWebImage
 
 class EditProfileControllerViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
-    @IBOutlet weak var userImageview: UIImageView!
-    @IBOutlet weak var editname: UITextField!
-    @IBOutlet weak var contactBackgroundView: UIView!
-    @IBOutlet weak var editemail: UITextField!
-    @IBOutlet weak var editpassword: UITextField!
-    @IBOutlet weak var editphone: UITextField?
+    @IBOutlet weak var userImageview           : UIImageView!
+    @IBOutlet weak var editname                : UITextField!
+    @IBOutlet weak var contactBackgroundView   : UIView!
+    @IBOutlet weak var editemail               : UITextField!
+    @IBOutlet weak var editpassword            : UITextField!
+    @IBOutlet weak var editphone               : UITextField?
     
     var userModel: UserModel?
     fileprivate func imageContent() {
-        userImageview?.layer.borderWidth = 1.0
-        userImageview?.layer.masksToBounds = false
-        userImageview?.layer.borderColor = UIColor.white.cgColor
-        userImageview?.layer.cornerRadius = (userImageview?.frame.size.width)! / 2
-        userImageview?.clipsToBounds = true
+        userImageview?.layer.borderWidth    = 1.0
+        userImageview?.layer.masksToBounds  = false
+        userImageview?.layer.borderColor    = UIColor.white.cgColor
+        userImageview?.layer.cornerRadius   = (userImageview?.frame.size.width)! / 2
+        userImageview?.clipsToBounds        = true
     }
     
     fileprivate func setPrivacySecurityNavBar() {

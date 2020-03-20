@@ -22,9 +22,9 @@ class WalletController: UIViewController {
         var updatedFrame                   = self.navigationController!.navigationBar.bounds
         updatedFrame .size.height          += UIApplication.shared.statusBarFrame.size.height
         gradientLayer.frame                = updatedFrame
-        let color1                     = UIColor(red: 255.0/255.0, green: 137.0/255.0, blue: 39.0/255.0, alpha: 1.0).cgColor
-        let color2                     = UIColor(red: 255.0/255.0, green: 169.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
-        gradientLayer.colors           = [color1, color2]
+        let color1                         = UIColor(red: 255.0/255.0, green: 137.0/255.0, blue: 39.0/255.0, alpha: 1.0).cgColor
+        let color2                         = UIColor(red: 255.0/255.0, green: 169.0/255.0, blue: 0.0/255.0, alpha: 1.0).cgColor
+        gradientLayer.colors               = [color1, color2]
         gradientLayer.startPoint           = CGPoint(x: 0.0, y: 0.0)
         gradientLayer.endPoint             = CGPoint(x: 0.0, y: 0.0)
         

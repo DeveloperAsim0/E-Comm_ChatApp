@@ -10,9 +10,9 @@ import UIKit
 
 class SettingTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var iconImageView: UIImageView!
-    @IBOutlet weak var touch: UIButton!
-    @IBOutlet weak var premiumCellLabel: UILabel!
+    @IBOutlet weak var iconImageView    : UIImageView!
+    @IBOutlet weak var touch            : UIButton!
+    @IBOutlet weak var premiumCellLabel : UILabel!
     
     
     override func awakeFromNib() {

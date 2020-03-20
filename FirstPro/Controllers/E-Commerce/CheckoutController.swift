@@ -21,15 +21,15 @@ class CheckoutController: UIViewController {
     }
     
     func customization() {
-    tableView?.estimatedRowHeight = 100
-    tableView?.rowHeight = UITableView.automaticDimension
-    tableView?.allowsMultipleSelection = false
-    tableView?.allowsSelection = false
+    tableView?.estimatedRowHeight       = 100
+    tableView?.rowHeight                = UITableView.automaticDimension
+    tableView?.allowsMultipleSelection  = false
+    tableView?.allowsSelection          = false
     
-    backgroundView.layer.shadowOpacity = 0.7
-    backgroundView.layer.shadowOffset = CGSize(width: 3, height: 3)
-    backgroundView.layer.shadowRadius = 15.0
-    backgroundView.layer.shadowColor = UIColor.black.cgColor
+    backgroundView.layer.shadowOpacity  = 0.7
+    backgroundView.layer.shadowOffset   = CGSize(width: 3, height: 3)
+    backgroundView.layer.shadowRadius   = 15.0
+    backgroundView.layer.shadowColor    = UIColor.black.cgColor
 
     }
     
