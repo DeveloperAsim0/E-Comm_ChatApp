@@ -14,4 +14,6 @@ target 'FirstPro' do
    pod 'GoogleSignIn', '~> 4.0'
    pod 'IQKeyboardManagerSwift'
    pod 'SDWebImage'
+   pod 'Alamofire'
+   pod 'SwiftyJSON'
 end

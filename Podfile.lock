@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.9.1)
   - FacebookCore (0.9.0):
     - FBSDKCoreKit (~> 5.0)
   - FacebookLogin (0.9.0):
@@ -108,10 +109,12 @@ PODS:
     - SDWebImage/Core (= 5.5.2)
   - SDWebImage/Core (5.5.2)
   - SnapKit (4.2.0)
+  - SwiftyJSON (5.0.0)
   - SwiftyMenu (0.5.8):
     - SnapKit (~> 4.2.0)
 
 DEPENDENCIES:
+  - Alamofire
   - FacebookCore
   - FacebookLogin
   - Firebase/Analytics
@@ -119,10 +122,12 @@ DEPENDENCIES:
   - GoogleSignIn (~> 4.0)
   - IQKeyboardManagerSwift
   - SDWebImage
+  - SwiftyJSON
   - SwiftyMenu (~> 0.5.7)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
     - FacebookCore
     - FacebookLogin
     - FBSDKCoreKit
@@ -144,12 +149,13 @@ SPEC REPOS:
     - GTMSessionFetcher
     - IQKeyboardManagerSwift
     - nanopb
-    - SnapKit
-    - SwiftyMenu
-  trunk:
     - SDWebImage
+    - SnapKit
+    - SwiftyJSON
+    - SwiftyMenu
 
 SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
   FacebookLogin: 6cee9fd6e1fe976fe8f7eec199e27b28b14f5d63
   FBSDKCoreKit: fa3ac4dc9b1afc9ae70b3de4dd704d1b6aeeed0d
@@ -173,8 +179,9 @@ SPEC CHECKSUMS:
   nanopb: 18003b5e52dab79db540fe93fe9579f399bd1ccd
   SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
   SwiftyMenu: 6eccf166d3f662783f2271abacc21923a2d5c481
 
-PODFILE CHECKSUM: db6ae0923f37904a0f77732e27499138da017a8a
+PODFILE CHECKSUM: 70bf251a4c3b96a781ecec4c6792f040a85a0b6a
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.7.5
